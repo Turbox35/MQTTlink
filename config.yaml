@@ -1,4 +1,4 @@
-broker: '172.19.40.11'
+broker: '172.19.40.19'
 port: 1883
 topic: MQTTlink
 sensors:
