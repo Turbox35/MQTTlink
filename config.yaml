@@ -1,0 +1,29 @@
+broker: '172.19.40.11'
+port: 1883
+topic: MQTTlink
+sensors:
+    - id: "1"
+      state_class: measurement
+      unit_of_measurement: kWh
+      device_class: power
+      friendly_name: sensor1
+    - id: "2"
+      state_class: measurement
+      unit_of_measurement: W
+      device_class: power
+      friendly_name: sensor1
+    - id: "3"
+      state_class: measurement
+      unit_of_measurement: kWh
+      device_class: power
+      friendly_name: sensor2
+    - id: "4"
+      state_class: measurement
+      unit_of_measurement: W
+      device_class: power
+      friendly_name: sensor2
+    - id: "5"
+      state_class: measurement
+      unit_of_measurement: W
+      device_class: power
+      friendly_name: sensor3
