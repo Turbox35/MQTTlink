@@ -24,6 +24,6 @@ sensors:
       friendly_name: sensor2
     - id: "5"
       state_class: measurement
-      unit_of_measurement: W
-      device_class: power
+      unit_of_measurement: °C
+      device_class: temperature
       friendly_name: sensor3
